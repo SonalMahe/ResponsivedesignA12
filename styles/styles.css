@@ -1,0 +1,15 @@
+body{
+    margin: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    min-height: 80px;
+    display: flexbox;
+    justify-content: flex-start;
+}
+.headeralign{
+    display: inline-block;
+    list-style: none;
+}
