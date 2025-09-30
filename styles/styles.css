@@ -63,14 +63,14 @@ body{
 
 /*responsive-design(diff-ways)*/
 
-@media screen and (max-width:1440px) and (min-width:768px){
+@media screen and (min-width:768px) and (max-width:1440px){
     .herosec{
         flex-direction: column;
         text-align: center;
         font-size: 64px;
     }
 }
-@media screen and (max-width:768px) and (min-width:320px){
+@media screen and (min-width:320px) and (max-width:768px){
     .herosec{
         flex-direction: column;
         text-align: center;
@@ -83,10 +83,10 @@ body{
     }
     
 }*/
-@media screen and (max-width:1440px){
+@media screen and (min-width:768px) and  (max-width:1440px){
     .nav-list{
         flex-direction: column;
-        font-size:20px;
+        font-size:16px;
     }
 }
 /*@media screen and (min-width:768px){
